@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu, theme } from 'antd';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { HashRouter  as Router, Route, Link, Routes } from 'react-router-dom';
 import { HomeOutlined, MenuOutlined, InfoCircleOutlined, MailOutlined, CoffeeOutlined ,ScheduleOutlined,ShoppingCartOutlined} from '@ant-design/icons';
 import { FacebookOutlined, InstagramOutlined } from '@ant-design/icons';
 
