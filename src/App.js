@@ -61,6 +61,7 @@ const App = () => {
         <Content style={{ padding: '0px 48px' }}>
           <div style={{ margin: '10px 0' }}></div>
           <div style={{ background: colorBgContainer, minHeight: 800, padding: 24, borderRadius: borderRadiusLG }}>
+          <Route>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/menu" element={<MenuPage />} />
@@ -74,6 +75,7 @@ const App = () => {
               <Route path="/about" element={<AboutUs />} />
               <Route path="/contact" element={<ContactUs />} />
             </Routes>
+            </Route>
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
