@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.contact-us .image-container {
+  position: relative;
+  text-align: center;
+  color: white; /* 字體顏色 */
+}
+
+.contact-us .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%; /* 設置寬度以允許換行 */
+  text-align: center;
+}
+
+.contact-us .title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-30%, -40%);
+  z-index: 1;
+  color: rgb(94, 50, 0);
+  font-family: 'Lora', sans-serif; /* 添加字体样式 */
+  width: 60%; /* 设置宽度，确保文本换行 */
+  text-align: left; /* 文本左对齐 */
+  white-space: normal; /* 允许文本换行 */
+  word-wrap: break-word; /* 在必要时换行 */
+  text-shadow: 
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,  
+     1px  1px 0 #ffffff; /* 添加文字边框 */
+}
+
+.contact-us .subtitle {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+  z-index: 1;
+  color: rgb(94, 50, 0);
+  font-family: 'Lora', sans-serif; /* 添加字体样式 */
+  width: 60%; /* 设置宽度，确保文本换行 */
+  text-align: left; /* 文本左对齐 */
+  white-space: normal; /* 允许文本换行 */
+  word-wrap: break-word; /* 在必要时换行 */
+
+}
+
+
+.contact-us .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  /* 添加一些內邊距以確保文本不緊貼邊緣 */
+}
+
+.contact-us .story-text {
+  font-family: 'Lora', sans-serif;
+  text-align: center; /* 文本居中 */
+  max-width: 500px; /* 最大寬度 */
+  margin: 20px; /* 外邊距 */
+}

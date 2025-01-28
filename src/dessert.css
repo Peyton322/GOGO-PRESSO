@@ -1,0 +1,55 @@
+
+  
+  .item {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .cardContainer .ant-card {
+    margin: 10px;
+    width: 240px;
+  }
+  
+  .cardContainer .ant-card-cover img {
+    height: 150px; /* 固定高度 */
+    object-fit: cover; /* 保持比例，裁剪溢出部分 */
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .modal-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .modal-description {
+    font-size: 16px;
+  }
+  
+  .custom-underline {
+    width: 100%;  /* Width of the underline */
+    height: 2px;  /* Height of the underline */
+    background-color: rgba(99, 85, 65, 0.849);  /* Color of the underline */
+    margin: 20px 0;  /* Margin around the underline */
+}  
+  
+.heighlight {
+   color:rgba(125, 91, 44, 0.947)
+}
+
+.modal-description-centered {
+  text-align: center;
+}

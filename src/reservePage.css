@@ -1,0 +1,74 @@
+  
+  .reserve-container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .buttom
+  {
+    background-color: #43341B !important;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.reserve-container .image-container {
+  position: relative;
+  text-align: center;
+  color: white; /* 字體顏色 */
+}
+
+.reserve-container .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%; /* 設置寬度以允許換行 */
+  text-align: center;
+}
+
+.reserve-container .title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-30%, -40%);
+  z-index: 1;
+  color: white;
+  font-family: 'Lora', sans-serif; /* 添加字体样式 */
+  width: 60%; /* 设置宽度，确保文本换行 */
+  text-align: left; /* 文本左对齐 */
+  white-space: normal; /* 允许文本换行 */
+  word-wrap: break-word; /* 在必要时换行 */
+}
+
+.reserve-container .subtitle {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+  z-index: 1;
+  color: white;
+  font-family: 'Lora', sans-serif; /* 添加字体样式 */
+  width: 60%; /* 设置宽度，确保文本换行 */
+  text-align: left; /* 文本左对齐 */
+  white-space: normal; /* 允许文本换行 */
+  word-wrap: break-word; /* 在必要时换行 */
+}
+
+.reserve-container .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  /* 添加一些內邊距以確保文本不緊貼邊緣 */
+}
+
+.reserve-container .story-text {
+  font-family: 'Lora', sans-serif;
+  text-align: left; /* 文本居中 */
+  max-width: 500px; /* 最大寬度 */
+  margin: 20px; /* 外邊距 */
+}

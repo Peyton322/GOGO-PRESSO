@@ -1,0 +1,25 @@
+/* App.css 或其他 CSS 文件 */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* 允許元素換行 */
+    justify-content: center;
+    /* 水平居中顯示所有子元素 */
+    align-items: center;
+    /* 垂直居中所有子元素 */
+    max-width: 800px;
+    margin: auto;
+    /* 整個容器在其父容器中居中 */
+}
+
+.image-container {
+    margin: 3px;
+    /* 為圖片添加一些間隔 */
+    /* flex: 1 1 auto;讓圖片容器能夠根據需要伸縮 */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.body-text {
+    font-family: 'Lora', sans-serif;
+}
