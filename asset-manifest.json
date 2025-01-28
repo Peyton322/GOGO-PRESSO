@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GOGO-PRESSO/static/css/main.c57898b4.css",
-    "main.js": "/GOGO-PRESSO/static/js/main.1048d697.js",
+    "main.js": "/GOGO-PRESSO/static/js/main.6d98d35a.js",
     "static/js/453.30a28407.chunk.js": "/GOGO-PRESSO/static/js/453.30a28407.chunk.js",
     "static/media/meal2.jpg": "/GOGO-PRESSO/static/media/meal2.c4dc1c7cefb3491bcab4.jpg",
     "static/media/flower.png": "/GOGO-PRESSO/static/media/flower.4342813f05987aa31306.png",
@@ -38,11 +38,11 @@
     "static/media/8.jpg": "/GOGO-PRESSO/static/media/8.9f1b6956940624ff7adb.jpg",
     "index.html": "/GOGO-PRESSO/index.html",
     "main.c57898b4.css.map": "/GOGO-PRESSO/static/css/main.c57898b4.css.map",
-    "main.1048d697.js.map": "/GOGO-PRESSO/static/js/main.1048d697.js.map",
+    "main.6d98d35a.js.map": "/GOGO-PRESSO/static/js/main.6d98d35a.js.map",
     "453.30a28407.chunk.js.map": "/GOGO-PRESSO/static/js/453.30a28407.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c57898b4.css",
-    "static/js/main.1048d697.js"
+    "static/js/main.6d98d35a.js"
   ]
 }
